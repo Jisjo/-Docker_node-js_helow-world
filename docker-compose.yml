@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+
+  nodejs-server:
+    image: jisjo/dev-nodejs-app:latest
+    container_name: node
+    networks:
+      - node-net
+    restart: always
+
+    ports:
+      - 80:8081
+networks:
+  node-net:
