@@ -1,4 +1,4 @@
-# node-js hello-world as container
+# node-js hello-world as Docker container
 
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
