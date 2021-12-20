@@ -4,8 +4,6 @@ RUN apk update
 
 RUN apk add --update nodejs npm
 
-RUN npm install
-
 RUN mkdir /var/node_app
 
 WORKDIR /var/node_app
